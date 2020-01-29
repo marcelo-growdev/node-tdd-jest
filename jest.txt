@@ -1,0 +1,27 @@
+yarn add jest -D
+
+yarn jest --init
+
+mugar na config bail 1
+(parar no primeiro erro)
+
+yarn add --dev @sucrase/jest-plugin
+
+yarn add -D @types/jest
+
+env.test
+
+mudar o config database
+
+mudar package.json test
+
+yarn add supertest -D
+
+teste unitário = testa uma função minima e pura(sem acesso ao banco).
+teste de integração = quando vai passar por uma rota ou acesso ao banco de dados.
+teste E2E = simular interface de usuario.
+
+Test Drive Development - TDD
+
+Criar o teste antes da funcionalidade.
+RED -> GREEN -> REFACTOR

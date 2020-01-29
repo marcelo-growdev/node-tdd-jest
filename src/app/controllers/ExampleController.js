@@ -1,5 +1,7 @@
 class ExampleController {
-  index() {}
+  index(req, res) {
+    return res.json({ result: 'ITS OK!' });
+  }
 
   show() {}
 
